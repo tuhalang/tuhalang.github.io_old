@@ -9,7 +9,7 @@ categories: Bitcoin Math Crypto
 
 - Đồ thị của đường cong có dạng:
 
-![Đồ thị đường cong](../images/image.png)
+![Đồ thị đường cong](../assets/images/image.png)
 
 - Đặc biệt đường cong Elliptic Curves được sử dụng trong bitcoin có phương trình:
 
@@ -29,11 +29,11 @@ categories: Bitcoin Math Crypto
 - Phép cộng điểm P+Q: Trường hợp R=P+Q và P!=Q
 - Phép nhân đôi điểm P+P: Trường hợp P+Q nhưng P==Q
 
-![Phép toán](../images/phep_toan.png)
+![Phép toán](../assets/images/phep_toan.png)
 
 - Công thức tính toán
 
-![Công thức](../images/cong_thuc.png)
+![Công thức](../assets/images/cong_thuc.png)
 
 ## III. Xây dựng Elliptic Curves với Python
 
