@@ -4,11 +4,7 @@ title:  "Finite Field"
 date:   2020-05-23 20:11:36 +0530
 categories: Bitcoin Math Crypto
 ---
-
-# Finite field (Trường hữu hạn)
-
 ## I. Định nghĩa nhóm
-
 - Nhóm là một tập hợp G và phép toán 2 ngôi * (G, *) thỏa mãn các tính chất sau:
     
     + Tính đóng (closure): Với mọi a, b thuộc G thì ta có a * b thuộc G.

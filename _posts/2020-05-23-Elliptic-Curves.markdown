@@ -4,9 +4,6 @@ title:  "Elliptic Curve"
 date:   2020-05-23 20:11:36 +0530
 categories: Bitcoin Math Crypto
 ---
-
-# Đường cong Elliptic Curves
-
 ## I. Định nghĩa 
 - Đường cong Elliptic Curves trên K là tập mọi cặp (x, y) thỏa mãn phương trình : ```y^2 = x^3 + ax + b``` cùng với một điểm vô cực 0. Trong đó a, b thuộc K và thỏa mãn **4 * a^3 + 27 * b^2 != 0** 
 
