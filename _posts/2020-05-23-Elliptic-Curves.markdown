@@ -37,7 +37,7 @@ categories: Bitcoin Math Crypto
 
 ## III. Xây dựng Elliptic Curves với Python
 
-```python3
+```py
 import unittest
 
 
