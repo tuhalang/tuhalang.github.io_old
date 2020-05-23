@@ -6,7 +6,7 @@ categories: Bitcoin Math Crypto
 ---
 ## 1. Elliptic Curve over Finite Field 
 - Như chúng ta đã thảo luận ở bài [Elliptic Curve](https://tuhalang.github.io/bitcoin/math/crypto/2020/05/23/Elliptic-Curves.html) một đồ thị của elliptic curve sẽ có dạng như sau:
- ![Đồ thị đường cong](../assets/images/image.png)
+ ![Đồ thị đường cong](https://tuhalang.github.io/assets/images/image.png)
 
  - Đó là đồ thị của đường cong khi chúng ta xét trên trường số thực là một Infinite Field. 
  - Tuy nhiên trong mật mã chúng ta không mong muốn phải tinhs toán với Infinite Field mà chúng ta chỉ mong muốn tính toán trong Finite Field.
@@ -22,7 +22,7 @@ categories: Bitcoin Math Crypto
     ```
 - Như chúng ta có thể thấy các phép toán trên Elliptic Curve vẫn tính toán bình thường chỉ là thêm vào phép lấy module.
 - Và khi đó đồ thị của phương trình sẽ có dạng:
-![Đồ thị](../assets/images/ee_ff.png)
+![Đồ thị](https://tuhalang.github.io/assets/images/ee_ff.png)
 
 - Đừng ngạc nhiên khi thấy nó không giống như đồ thị trên trường số thực :v 
 - Hãy chú ý là đồ thị này sẽ không đối xứng qua trục Ox như đồ thị trên trường số thực do phương trình là **y^=...** là do trong trường hữu hạn chúng ta chỉ xét các điểm không âm. Và thay vì đối xứng qua y=0 nó sẽ đối xứng qua một đường thẳng y>0.
