@@ -25,8 +25,6 @@ categories: Bitcoin Math Crypto
     a * (b + c) = (a * b) + (a * c) với mọi a, b, c thuộc F.
     ```
 
-- VD: Tập hợp F = {-1, 0, 1} với hai phép toán +, * là một trường hữu hạn.
-
 ### 2. Finite Set (Tập hữu hạn)
 - Nếu kích thước của tập là p thì các phần tử của tập hợp đó là: 0, 1, 2, ..., p-1.
 ```
