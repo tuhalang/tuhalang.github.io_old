@@ -14,8 +14,6 @@ categories: Bitcoin Math Crypto
 
 ![Đồ thị đường cong](../images/image.png)
 
-![Tập điểm](../images/point.png)
-
 - Đặc biệt đường cong Elliptic Curves được sử dụng trong bitcoin có phương trình:
 
     ```y^2 = x^3 + 7```
