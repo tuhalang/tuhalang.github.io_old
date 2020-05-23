@@ -16,7 +16,8 @@ plainwhite:
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
-
+  analytics_id: UA-161740789-1
+  
   # generate social links in footer
   social_links:
     #twitter: jekyll
