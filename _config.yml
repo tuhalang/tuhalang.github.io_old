@@ -18,7 +18,7 @@ plainwhite:
   dark_mode: true # set to true to add dark mode toggle
   analytics_id: UA-161740789-1
   
-  disqus_shortname: tuhalang-github-io
+  #disqus_shortname: tuhalang-github-io
   sitemap: true
   
   # generate social links in footer
