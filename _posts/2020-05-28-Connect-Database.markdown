@@ -43,7 +43,7 @@ GRANT CONNECT, RESOURCE, DBA TO PHAMHUNG;
 IV. Import sample database
 
 - Các bạn đăng nhập lại cơ sở dữ liệu bằng tài khoản vừa tạo.
-- Tải sample database [tại đây](https://tuhalang.github.io/sample_database/table.sql) và [tại đây](https://tuhalang.github.io/sample_database/data.sql)
+- Tải sample database [tại đây](https://tuhalang.github.io/assets/sample_database/table.sql) và [tại đây](https://tuhalang.github.io/assets/sample_database/data.sql)
 - Import lần lượt các file theo thứ tự table.sql -> data.sql 
 - Để import file ta thực hiện câu lệnh sau:
 
