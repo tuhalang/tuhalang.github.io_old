@@ -4,8 +4,9 @@ title:  "Elliptic Curve Cryptography"
 date:   2020-05-23 20:11:36 +0530
 categories: Bitcoin Math Crypto
 ---
-## 1. Elliptic Curve over Finite Field 
+1. Elliptic Curve over Finite Field 
 - Như chúng ta đã thảo luận ở bài [Elliptic Curve](https://tuhalang.github.io/bitcoin/math/crypto/2020/05/23/Elliptic-Curves.html) một đồ thị của elliptic curve sẽ có dạng như sau:
+
  ![Đồ thị đường cong](https://tuhalang.github.io/assets/images/image.png)
 
  - Đó là đồ thị của đường cong khi chúng ta xét trên trường số thực là một Infinite Field. 
@@ -27,7 +28,7 @@ categories: Bitcoin Math Crypto
 - Đừng ngạc nhiên khi thấy nó không giống như đồ thị trên trường số thực :v 
 - Hãy chú ý là đồ thị này sẽ không đối xứng qua trục Ox như đồ thị trên trường số thực do phương trình là **y^=...** là do trong trường hữu hạn chúng ta chỉ xét các điểm không âm. Và thay vì đối xứng qua y=0 nó sẽ đối xứng qua một đường thẳng y>0.
 
-## II. Xây dựng Elliptic Curve over Finite Field với Python
+II. Xây dựng Elliptic Curve over Finite Field với Python
 ```py
 import unittest
 from FieldElement import FieldElement
