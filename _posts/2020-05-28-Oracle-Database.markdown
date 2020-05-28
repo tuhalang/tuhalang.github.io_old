@@ -32,13 +32,13 @@ docker run -d -v <your folder>:/u01/app/oracle -p 1521:1521 epiclabs/docker-orac
 ```
 - Như vậy thông tin kết nối database sẽ như sau:
 
-|Thuộc tính|Giá trị|
-|----------|-------|
-|hostname|localhost|
-|port| 1521|
-|sid| xe|
-|username| system|
-|password| oracle|
+    |Thuộc tính|Giá trị|
+    |----------|-------|
+    |hostname|localhost|
+    |port| 1521|
+    |sid| xe|
+    |username| system|
+    |password| oracle|
 
 - Trong trường hợp bạn không muốn sử dụng port 1521 mà muốn xử dụng port khác thì chỉ cần thay đổi như sau:
 ```bash 
