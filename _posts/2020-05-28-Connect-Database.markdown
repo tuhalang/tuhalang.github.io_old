@@ -21,6 +21,7 @@ categories: Oracle Database
 ## III. Tạo user mới
 
 - Câu lệnh dưới đây sẽ thực hiện tạo mới user và thực hiện gán quyền admin cho nó.
+
 ```sql
 -- create new user
 CREATE USER <<USER_NAME>> IDENTIFIED BY <<PASSWORD>>;
