@@ -5,7 +5,6 @@ date:   2020-05-28 09:50:36 +0530
 categories: Oracle Database
 ---
 ## I. Download && Install Dbeaver
-
 - Các bạn có thể tải Dbeaver từ trang chủ [Download Dbeaver](https://dbeaver.io/download/)
 
 ## II. Connect database
