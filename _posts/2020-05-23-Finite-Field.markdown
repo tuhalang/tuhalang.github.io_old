@@ -4,7 +4,7 @@ title:  "Finite Field"
 date:   2020-05-23 20:11:36 +0530
 categories: Bitcoin Math Crypto
 ---
-## I. Định nghĩa nhóm
+I. Định nghĩa nhóm
 - Nhóm là một tập hợp G và phép toán 2 ngôi * (G, *) thỏa mãn các tính chất sau:
     
     + Tính đóng (closure): Với mọi a, b thuộc G thì ta có a * b thuộc G.
@@ -13,9 +13,9 @@ categories: Bitcoin Math Crypto
     + Phần tử đơn vị (identity element): tồn tại một phần tử đơn vị e thuộc G thỏa mãn ```e * a = a * e = a``` với mọi a thuộc G. Nếu tồn tại phần tử đơn vị là duy nhất.
     + Phần tử nghịch đảo (inverse element):với mỗi a thuộc G, tồn tại b thuộc G thỏa mãn ```a * b = b * a = e```
 
-## II. Định nghiã trường hữu hạn
+II. Định nghiã trường hữu hạn
 
-### 1. Finite Field (Trường hữu hạn)
+1. Finite Field (Trường hữu hạn)
 - Trường hữu hạn là một ***tập hữu hạn*** các số (tập F) và hai phép toán cộng (+) và nhân (*) thỏa mãn các tính chất sau: 
 
     + Các phần tử của F tạo thành một ***nhóm*** với phép toán + với phần tử đơn vị là 0
@@ -25,14 +25,14 @@ categories: Bitcoin Math Crypto
     a * (b + c) = (a * b) + (a * c) với mọi a, b, c thuộc F.
     ```
 
-### 2. Finite Set (Tập hữu hạn)
+2. Finite Set (Tập hữu hạn)
 - Nếu kích thước của tập là p thì các phần tử của tập hợp đó là: 0, 1, 2, ..., p-1.
 ```
 Fp = {0, 1, 2, 3, 4, 5, ..., p-1}
 ```
 - Chú ý: Kích thước của tập hợp luôn lớn hơn 1 và là một số nguyên tố .
 
-### 3. Phép toán lấy module
+3. Phép toán lấy module
 
 - Để đảm báo tính đóng của trường hữu hạn khi thực hiện các phép toán cộng, trừ, nhân và chia thì chúng ta thực hiện các phép toán module
 - Chúng ta định nghĩa phép cộng trong một tập hữu hạn sử dụng phép toán module như sau:
@@ -42,7 +42,7 @@ Fp = {0, 1, 2, 3, 4, 5, ..., p-1}
     + ...
 - Tương tự đối với các phép toán trừ và nhân.
 
-### 5. Định lý fermat nhỏ 
+4. Định lý fermat nhỏ 
 - Nếu p là một số nguyên tố thì:
 
      ```n ^ (p-1) = 1 mod p```
@@ -57,7 +57,7 @@ Fp = {0, 1, 2, 3, 4, 5, ..., p-1}
 
     ```Vậy a/b = a * b^(p-2)```
 
-## III. Xây dựng Finite Field với Python
+III. Xây dựng Finite Field với Python
 
 ```py
 import unittest
