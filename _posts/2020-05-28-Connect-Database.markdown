@@ -29,3 +29,35 @@ CREATE USER <<USER_NAME>> IDENTIFIED BY <<PASSWORD>>;
 -- grant priviledges
 GRANT CONNECT, RESOURCE, DBA TO <<USER_NAME>>;
 ```
+
+- Ở đây mình sẽ tạo user với tên mình: 
+
+```sql
+-- create new user
+CREATE USER PHAMHUNG IDENTIFIED BY 123456;
+
+-- grant priviledges
+GRANT CONNECT, RESOURCE, DBA TO PHAMHUNG;
+```
+
+## IV. Import sample database
+
+- Các bạn đăng nhập lại cơ sở dữ liệu bằng tài khoản vừa tạo.
+- Tải sample database [tại đây](https://tuhalang.github.io/sample_database/table.sql) và [tại đây](https://tuhalang.github.io/sample_database/data.sql)
+- Import lần lượt các file theo thứ tự table.sql -> data.sql 
+- Để import file ta thực hiện câu lệnh sau:
+
+```
+SQL>@path_to_sql_file
+```
+
+- Ví dụ:
+
+```sql
+@/home/tuhalang/Downloads/table.sql
+@/home/tuhalang/Downloads/data.sql
+```
+
+- Và đây là kết quả sau khi import:
+
+![image](https://tuhalang.github.io/assets/images/table.png)
