@@ -4,10 +4,10 @@ title:  "Kết nối oracle database sử dụng Dbeaver"
 date:   2020-05-28 09:50:36 +0530
 categories: Oracle Database
 ---
-## I. Download && Install Dbeaver
+I. Download && Install Dbeaver
 - Các bạn có thể tải Dbeaver từ trang chủ [Download Dbeaver](https://dbeaver.io/download/)
 
-## II. Connect database
+II. Connect database
 
 - Download ojdbc tại [đây](https://www.oracle.com/database/technologies/jdbcdriver-ucp-downloads.html)
 
@@ -18,7 +18,7 @@ categories: Oracle Database
 - Tiếp theo chọn Edit Driver Setting -> chọn Add File chỏ đến file ojdbc đã tải ở trên sau đó bấm Ok 
 - Chọn Test Connection để kiểm tra kết nối sau đó bấm Finish để kết thúc.
 
-## III. Tạo user mới
+III. Tạo user mới
 
 - Câu lệnh dưới đây sẽ thực hiện tạo mới user và thực hiện gán quyền admin cho nó.
 
@@ -40,7 +40,7 @@ CREATE USER PHAMHUNG IDENTIFIED BY 123456;
 GRANT CONNECT, RESOURCE, DBA TO PHAMHUNG;
 ```
 
-## IV. Import sample database
+IV. Import sample database
 
 - Các bạn đăng nhập lại cơ sở dữ liệu bằng tài khoản vừa tạo.
 - Tải sample database [tại đây](https://tuhalang.github.io/sample_database/table.sql) và [tại đây](https://tuhalang.github.io/sample_database/data.sql)
