@@ -33,7 +33,11 @@ plainwhite:
     # pinterest: jekyll
     # youtube: jekyll
     facebook: hung.pv99
-
+  navigation:
+    - title: About me
+      url: "/about"
+    - title: Resume
+      url: "/resume"
     # Mastodon instances
     # mastodon:
     # - username: jekyll
