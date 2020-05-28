@@ -4,7 +4,7 @@ title:  "Elliptic Curve"
 date:   2020-05-23 20:11:36 +0530
 categories: Bitcoin Math Crypto
 ---
-## I. Định nghĩa 
+I. Định nghĩa 
 - Đường cong Elliptic Curves trên K là tập mọi cặp (x, y) thỏa mãn phương trình : ```y^2 = x^3 + ax + b``` cùng với một điểm vô cực 0. Trong đó a, b thuộc K và thỏa mãn **4 * a^3 + 27 * b^2 != 0** 
 
 - Đồ thị của đường cong có dạng:
@@ -16,7 +16,7 @@ categories: Bitcoin Math Crypto
     ```y^2 = x^3 + 7```
 - Đây là một dạng của đường cong Elliptic Curves với a = 0 và b = 7.
 
-## II. Các phép toán nhóm trên đường cong Elliptic Curves
+II. Các phép toán nhóm trên đường cong Elliptic Curves
 
 - Kí hiệu phép toán nhóm bởi kí hiệu cộng (+)
 - Cho hai điểm P = (x1, y1) và Q = (x2, y2)
@@ -35,7 +35,7 @@ categories: Bitcoin Math Crypto
 
 ![Công thức](https://tuhalang.github.io/assets/images/cong_thuc.png)
 
-## III. Xây dựng Elliptic Curves với Python
+III. Xây dựng Elliptic Curves với Python
 
 ```py
 import unittest
