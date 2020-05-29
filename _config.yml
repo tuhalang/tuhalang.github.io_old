@@ -37,9 +37,9 @@ plainwhite:
     - title: Home
       url: "/"
     - title: About me
-      url: "/about"
+      url: "/me/1999/12/10/About.html"
     - title: Resume
-      url: "/resume"
+      url: "/me/1999/12/10/Resume.html"
     # Mastodon instances
     # mastodon:
     # - username: jekyll
