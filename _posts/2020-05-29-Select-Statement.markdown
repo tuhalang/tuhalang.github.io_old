@@ -27,6 +27,7 @@ Cú pháp của câu lệnh **SELECT** sẽ như sau:
 ```sql
 SELECT column_1, column_2, ... FROM table_name;
 ```
+Chú ý: Không giống như các RDBMS khác có thể không cần FROM table_name trong câu SELECT, Oracle bắt buộc phải có FROM t
 
 II. Ví dụ 
 
