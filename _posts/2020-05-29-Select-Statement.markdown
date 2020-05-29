@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Câu lệnh select"
+title:  "Oracle Select Statement"
 date:   2020-05-29 08:42:36 +0530
 categories: Oracle Database
 ---
