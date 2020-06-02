@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Câu lệnh select"
+title:  "Select distinct"
 date:   2020-06-02 10:19:36 +0530
 categories: Oracle Database
 ---
