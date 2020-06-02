@@ -55,6 +55,13 @@
           </li>
         </a>
         {%- endif -%}
+        {%- if site.plainwhite.social_links.gmail -%}
+        <a href="mailto:{{ site.plainwhite.social_links.gmail }}">
+          <li>
+            <i class="icon-gmail"></i>
+          </li>
+        </a>
+        {%- endif -%}
         {%- if site.plainwhite.social_links.youtube -%}
         <a href="https://youtube.com/{{ site.plainwhite.social_links.youtube }}">
           <li>
