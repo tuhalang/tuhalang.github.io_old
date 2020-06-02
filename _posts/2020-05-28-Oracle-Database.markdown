@@ -4,7 +4,7 @@ title:  "Hướng dẫn cài đặt oracle 11g trên ubuntu sử dụng docker"
 date:   2020-05-28 08:26:36 +0530
 categories: Oracle Database
 ---
-**Tóm tawts:** Trong bài viết này mình sẽ hướng dẫn các bạn cài đặt oracle database 11g chạy trên docker
+**Tóm tắt:** Trong bài viết này mình sẽ hướng dẫn các bạn cài đặt oracle database 11g chạy trên docker
 
 I. Cài đặt docker
 - Để cài đặt docker trên ubuntu thì vô cùng đơn giản bạn chỉ cần mở terminal và chạy câu lệnh sau: 
