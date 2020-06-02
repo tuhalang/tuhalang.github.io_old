@@ -32,7 +32,7 @@ sudo docker run -d -p 1521:1521 epiclabs/docker-oracle-xe-11g
 - Tuy nhiên nếu ta run oracle database như trên thì mỗi lần khởi động lại nó sẽ mất hết dữ liệu vì thế ta sẽ phải mount volumn:
 
 ```bash
-docker run -d -v <your folder>:/u01/app/oracle -p 1521:1521 epiclabs/docker-oracle-xe-11g
+sudo docker run -d -v <your folder>:/u01/app/oracle -p 1521:1521 epiclabs/docker-oracle-xe-11g
 ```
 - Như vậy thông tin kết nối database sẽ như sau:
 
@@ -47,5 +47,5 @@ docker run -d -v <your folder>:/u01/app/oracle -p 1521:1521 epiclabs/docker-orac
 - Trong trường hợp bạn không muốn sử dụng port 1521 mà muốn xử dụng port khác thì chỉ cần thay đổi như sau:
 
 ```bash 
-docker run -d -v <your folder>:/u01/app/oracle -p XXXX:1521 epiclabs/docker-oracle-xe-11g
+sdocker run -d -v <your folder>:/u01/app/oracle -p XXXX:1521 epiclabs/docker-oracle-xe-11g
 ```
